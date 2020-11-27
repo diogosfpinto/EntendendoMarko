@@ -1,5 +1,5 @@
 {
-  "name": "marko",
+  "name": "entendendomarko",
   "version": "1.0.0",
   "description": "exempo de arquivos do tipo marko",
   "main": "index.js",
@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Diogo Pinto",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "marko": "^4.23.9"
+  }
 }
