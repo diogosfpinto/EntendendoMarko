@@ -7,6 +7,6 @@ const page = require("./hello");
 const port = 3000;
 
 http.createServer((req, resp) => {
-    page.render({ name: "Marko"}, resp);
+    page.render({ name: "Marko" }, resp);
 })
 .listen(port);
