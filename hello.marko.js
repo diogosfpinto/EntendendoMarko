@@ -12,7 +12,7 @@ var marko_template = module.exports = require("marko/src/html").t(__filename),
 function render(input, out, __component, component, state) {
   var data = input;
 
-  out.w("<html><head><meta charset=utf-8><title>Botao Adição</title></head><body><h1>Incrementar </h1><button onclick=addOne()>Adicionar</button><p id=valor>0</p><script>\r\n            let valFin = 0;\r\n            function addOne() {\r\n                valFin++;\r\n                document.getElementById('valor').innerHTML = valFin;\r\n            }\r\n        </script>");
+  out.w("<html><head><meta charset=utf-8><title>Botao Adição</title></head><body><script>\r\n            let valFin = 0;\r\n            function addOne() {\r\n                valFin++;\r\n                document.getElementById('valor').innerHTML = valFin;\r\n            }\r\n        </script><h1>Incrementar </h1><button onclick=addOne()>Adicionar</button><p id=valor>0</p>");
 
   init_components_tag({}, out);
 
